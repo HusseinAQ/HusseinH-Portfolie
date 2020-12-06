@@ -58,21 +58,25 @@
     font-size: var(--normal-font-size);
     color: var(--second-color);
   }
+ 
   h1,h2,p{
-    margin: 0;
+    margin: 0px;
   }
   ul{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     list-style: none;
   }
   a{
     text-decoration: none;
   }
+
+
   img{
     max-width: 100%;
     height: auto;
     display: block;
+    
   }
   
   /*===== css  ===== */
@@ -187,14 +191,15 @@
   /*===== forsides data=====*/
   .home{
     height: calc(100vh - 3rem);
-    row-gap: 1rem;
+    row-gap: 25rem;
   }
   .home__data{
     align-self: center;
   }
   .home__title{
     font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
+    margin-bottom: 18%;
+    margin-top: auto;
   }
   .home__title-color{
     color: var(--first-color);
@@ -214,9 +219,9 @@
   }
   .home__img{
     position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 295px;
+    right: 30px;
+    bottom: 300%;
+    width: 300%;
   }
   
   /*knapper*/
@@ -227,6 +232,7 @@
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
+    margin-bottom: 95px;
   }
   .button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
@@ -414,10 +420,10 @@
       margin-right: var(--mb-4);
     }
     .home__img{
-      width: 457px;
-      bottom: 15%;
+      width: 400px;
+      bottom: 35%;
     }
-  
+   
     .about__container, .skills__container{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
@@ -444,8 +450,9 @@
       margin-left: auto;
       margin-right: auto;
     }
-    .home__img{
-      right: 10%;
+    .home_img{
+      right: 100%;
+
     }
   }
   
