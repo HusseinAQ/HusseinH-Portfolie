@@ -8,46 +8,26 @@
 
         <!-- =====boks ikoner===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <title>Hussein' portfolio</title>
     </head>
     <body>
         <!--===== header =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Hussein Ali </a>
-                </div>
-
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item"><a href="#home" class="nav_link active">Hjem</a></li>
-                        <li class="nav_item"><a href="#about" class="nav_link">Om mig</a></li>
-                        <li class="nav_item"><a href="#work" class="nav_link">Mine projekter</a></li>
-                        <li class="nav_item"><a href="#contactform" class="nav_link">Kontakt</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-             <!--===== home-menu =====-->
-             <section class="home bd-grid" id="home">
-                <div class="home_data">
-                    <h1 class="home_title">Hej,<br>Jeg er <span class="home__title-color">Hussein</span><br> Studerende på Zealand</h1>
-
-                    <a href="#" class="button">Kontakt</a>
-                </div>
-
-                <div class="home_img">    
-                    <img src="billeder/hussein.jpg" alt="hussein">
-                </div>
-            </section>
-
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Hjem</a>
+            <a href="#work">Mine projekt</a>
+            <a href="#contact">Kontakt</a>
+            <a href="#about">Om</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!------------forside--------------->
+          <section class="forside" id="forside">
+          <h1 class="forside-titel">Hej, jeg <br>er Hussein&#x1F44B;</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis</p>
+          </section>
             <!--===== om mig =====-->
             <section class="about section" id="about">
                 <h2 class="section-title">Om</h2>
@@ -128,6 +108,7 @@
             </section>
 
             <!--===== Kontaktformular =====-->
+            <h2>Kontakt</h2>
             <div class="container">
                 <form action="action_page.php">
               
