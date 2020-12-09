@@ -23,7 +23,6 @@
                     <ul class="nav_list">
                         <li class="nav_item"><a href="#home" class="nav_link active">Hjem</a></li>
                         <li class="nav_item"><a href="#about" class="nav_link">Om mig</a></li>
-                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
                         <li class="nav_item"><a href="#work" class="nav_link">Mine projekter</a></li>
                         <li class="nav_item"><a href="#contactform" class="nav_link">Kontakt</a></li>
                     </ul>
@@ -64,71 +63,6 @@
                     </div>                                   
                 </div>
             </section>
-
-            <!--===== skills =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills_container bd-grid">          
-                    <div>
-                        <h2 class="skills_subtitle">Mine Skills</h2>
-                        <p class="skills_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills_data">
-                            <div class="skills_names">
-                                <i class='bx bxl-html5 skills_icon'></i>
-                                <span class="skills_name">HTML</span>
-                            </div>
-                            <div class="skills_bar skills_html">
-
-                            </div>
-                            <div>
-                                <span class="skills_percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills_data">
-                            <div class="skills_names">
-                                <i class='bx bxl-css3 skills_icon'></i>
-                                <span class="skills_name">CSS</span>
-                            </div>
-                            <div class="skills_bar skills_css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills_percentage">70%</span>
-                            </div>
-                        </div>
-                        <div class="skills_data">
-                            <div class="skills_names">
-                                <i class='bx bxl-javascript skills_icon' ></i>
-                                <span class="skills_name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills_bar skills_js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills_percentage">60%</span>
-                            </div>
-                        </div>
-                        <div class="skills_data">
-                            <div class="skills_names">
-                                <i class='bx bxs-paint skills_icon'></i>
-                                <span class="skills_name">UX/UI</span>
-                            </div>
-                            <div class="skills_bar skills_ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills_percentage">90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="/billeder/billede1.jpeg" alt="" class="skills_billede">
-                    </div>
-                </div>
-            </section>
-
             <!--===== mit projekt =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Mit projekt</h2>
@@ -194,20 +128,22 @@
             </section>
 
             <!--===== Kontaktformular =====-->
-            <section class="contact section" id="kontakt">
-                <h2 class="section-title">Kontakt</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="contact" class="contact__form">
-                        <input type="text" placeholder="Navn" class="contact__input">
-                        <input type="email" placeholder="Email" class="contact__input">
-                        <input type="text" placeholder="Kommentarfelt" class="contact__input">
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Navn</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Navn...">
+              
+                  <label for="lname">Efternavn</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Efternavn...">
+              
+                  <label for="subject">Kommentarfelt</label>
+                  <textarea id="subject" name="subject" placeholder="Skriv her..." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Send">
+              
+                </form>
+              </div>
         <!--===== footer =====-->
         <footer class="footer">
             <p class="footer_title">Hussein</p>
@@ -216,7 +152,7 @@
                 <a href="#" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer_icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p>&#169; 2020 - Alle rettigheder forbeholdt.</p>
+            <p>2020 - Alle rettigheder forbeholdt.</p>
         </footer>
 
 
