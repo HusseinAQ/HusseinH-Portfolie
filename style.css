@@ -386,7 +386,7 @@
     }
   
     .nav{
-      height: calc(var(--header-height) + 1rem);
+      height: 
     }
     .nav__list{
       display: flex;
