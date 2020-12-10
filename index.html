@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="style.css">
 
         <!-- =====boks ikoner===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/e0458484a8.js" crossorigin="anonymous"></script>
 
         <title>Hussein' portfolio</title>
     </head>
     <body>
         <!--===== header =====-->
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Hjem</a>
-            <a href="#work">Mine projekt</a>
-            <a href="#contact">Kontakt</a>
-            <a href="#about">Om</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Hussein Ali</label>
+            <ul>
+                <li><a class=”active” href="#home">Hjem</a></li>
+                <li><a href="#about">Om Os</a></li>
+                <li><a href="#work">Mine projekter</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
           <!------------forside--------------->
-          <section class="forside" id="forside">
-          <h1 class="forside-titel">Hej, jeg <br>er Hussein&#x1F44B;</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis</p>
-          </section>
+          <section class="forside" id="about">
+            <h1 class="forside-titel">Hej, det her er <br>til mit univers&#x1F44B;</h1>
+                <div>
+
+                <h3 class="forside_tekst">Velkommen til mit portfolio. </h3>           
+                </div>                                   
+            </div>
+        </section>
             <!--===== om mig =====-->
             <section class="about section" id="about">
                 <h2 class="section-title">Om</h2>
@@ -38,14 +45,18 @@
                     </div>
                     
                     <div>
-                        <h2 class="about_subtitle">Jeg er Hussein</h2>
-                        <p class="about_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <h2 class="about_subtitle">Mit navn er Hussein&#x270B;</h2>
+                        <p class="about_text">Jeg hedder Hussein Ali og jeg er studerende på multimediedesigner-uddannelsen, Køge. Jeg har lige siden barndommen været utrolig interesseret i at rode rundt med computere, og nyde et flot design.
+                            <br>I min fritid bruger jeg tiden på at arbejde med koder, og finde nye løsninger som jeg kan lære af. Jeg syntes det er fantastik at arbejde med noget, og få respons på det. <br>
+                            
+                            Jeg betragter mig selv som ansvarsfuld, produktiv, og er ikke bange for at sige min mening. Jeg nyder at jeg har gode venner/kollegaer omkring mig, da jeg er meget socialt anlagt, og jeg er altid interesseret i at møde nye mennesker og udvide mit netværk.
+                            </p>           
                     </div>                                   
                 </div>
             </section>
             <!--===== mit projekt =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Mit projekt</h2>
+                <h2 class="section-title">Mine projekter</h2>
 
                 <div class="work_container bd-grid">
                     <div class="work_img">
@@ -127,7 +138,7 @@
               </div>
         <!--===== footer =====-->
         <footer class="footer">
-            <p class="footer_title">Hussein</p>
+            <p class="footer_title">Hussein - Multiemediedesigner-studerende </p>
             <div class="footer_social">
                 <a href="#" class="footer_icon"><i class='bx bxl-facebook' ></i></a>
                 <a href="#" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
